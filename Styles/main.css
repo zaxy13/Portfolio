@@ -28,12 +28,44 @@
          url('../Assets/Fonts/VAR/SourceCodeVariable-Italic.ttf') format('truetype');
 }
 
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    box-sizing: inherit;
+}
+
 body {
     font-family: "Source Code Variable";
     color: var(--text-clr);
     background-color: var(--bkgd-clr);
 }
 
+a {
+    color: var(--text-clr);
+}
+a:hover,
+a:focus {
+    color: var(--second-clr);
+}
+
+h1 {
+    font-weight: 250;
+}
+
+header { 
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+}
 #nona_001 {
     border-radius: 50%;
     height: 100px;
