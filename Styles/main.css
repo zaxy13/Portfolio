@@ -1,4 +1,41 @@
+
+:root {
+    --bkgd-clr: hsla(279, 19%, 23%, 1);
+    --second-clr: hsl(100, 50%, 40%);
+    --text-clr: hsl(243, 30%, 80%);
+    --warn-clr: hsl(340, 90%, 75%);
+    --succs-clr: hsl(95, 90%, 75%);
+
+}
+
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../Assets/Fonts/WOFF2/VAR/SourceCodeVariable-Roman.ttf.woff2') format('woff2'),
+         url('../Assets/Fonts/WOFF/VAR/SourceCodeVariable-Roman.ttf.woff') format('woff'),
+         url('../Assets/Fonts/VAR/SourceCodeVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../Assets/Fonts/WOFF2/VAR/SourceCodeVariable-Italic.ttf.woff2') format('woff2'),
+         url('../Assets/Fonts/WOFF/VAR/SourceCodeVariable-Italic.ttf.woff') format('woff'),
+         url('../Assets/Fonts/VAR/SourceCodeVariable-Italic.ttf') format('truetype');
+}
+
 body {
-    color :azure;
-    background-color: darkslategray;
+    font-family: "Source Code Variable";
+    color: var(--text-clr);
+    background-color: var(--bkgd-clr);
+}
+
+#nona_001 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
