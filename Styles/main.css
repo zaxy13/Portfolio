@@ -41,6 +41,7 @@ body {
     font-family: "Source Code Variable";
     color: var(--text-clr);
     background-color: var(--bkgd-clr);
+    height: 100%;
 }
 
 a {
